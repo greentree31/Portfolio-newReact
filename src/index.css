@@ -6,10 +6,10 @@
 
 :root {
 	--light: #fafafa;
-	--dark: #4c6374;
-	--darker: #1f3b60;
-	--overlay: rgba(255, 255, 255, 0.6);
-	--overlayTxt: #31343d;
+	--dark: #787878;
+	--darker: #353535;
+	--overlay: rgba(33, 108, 165, 0.6);
+	--overlayTxt: #31373d;
 }
 
 html,
