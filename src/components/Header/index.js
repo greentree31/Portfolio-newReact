@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Header = (props) => {
-  console.log(props);
-  return <header>Header</header>;
+const Header = (pages, currentPage, setCurrentPage) => {
+
+  return <header>
+    <h1>My portfolio</h1>
+    </header>;
 }
 
 export default Header
