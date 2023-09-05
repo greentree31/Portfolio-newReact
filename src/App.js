@@ -15,7 +15,7 @@ function App() {
       setCurrentPage={setCurrentPage}
      />
       <main>
-        <Page />
+        <Page currentPage={currentPage} />
       </main>
       <Footer />
     </div>
