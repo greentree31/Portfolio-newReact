@@ -1,4 +1,4 @@
-import React {useState} from 'react';
+import React, {useState} from 'react';
 import Header from './components/Header';
 import Page from './Page';
 import Footer from './components/Footer';
@@ -12,7 +12,8 @@ function App() {
       <Header 
       pages={pages} 
       currentPage={currentPage} 
-      setCurrentPage={setCurrentPage} />
+      setCurrentPage={setCurrentPage}
+     />
       <main>
         <Page />
       </main>
