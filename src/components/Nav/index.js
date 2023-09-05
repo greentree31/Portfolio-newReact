@@ -1,4 +1,5 @@
 import React from "react";
+import { capitalize } from "../../utils";
 import './style.css';
 
 const Nav = ({ pages, currentPage, setCurrentPage }) => {
@@ -9,9 +10,9 @@ const Nav = ({ pages, currentPage, setCurrentPage }) => {
           href="/#"
           key={page}
           className={`nav-link ${page === currentPage && "active"}`}
-          onclick={() => setCurrentPage(page)}
+          onClick={() => setCurrentPage(page)}
         >
-          {page}
+          {capitalize(page)}
         </a>
       ))}
     </nav>
