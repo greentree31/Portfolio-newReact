@@ -16,11 +16,11 @@ html,
 body {
 	min-height: 100%;
 }
-/* font-family: 'Quintessential', cursive; */
+/* font-family: 'Quintessential', cursive;     font-family: 'Architects Daughter', cursive;*/
 .wrapper {
     background-color: var(--darker);
     color: var(--light);
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Arial', sans-serif;
     font-size: 18px;
     line-height: 1.5;
 }
